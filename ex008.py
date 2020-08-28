@@ -1,0 +1,2 @@
+metrica=float(input('digite uma medida'))
+print('Essa medida é {} em km {} em hectrometro {} decametro {} metros, {} em centimetros e {} em milimetros'.format(metrica/1000,metrica/100,metrica/10,metrica,metrica*100,metrica*1000))
