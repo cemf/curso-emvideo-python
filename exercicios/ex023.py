@@ -5,8 +5,12 @@ strnum=str(num)
 '''fiz de uma forma mo complicada, so para fazer por int'''
 '''Abaixo a forma do guanabara, simples e com string tambem, eu so fiz com int'''
 nume=int(input('Informa um numero'))
-n=str(nume)
-print('Unidades : {}'.format(n[3]))
-print('Dezena : {}'.format(n[2]))
-print('Centena : {}'.format(n[1]))
-print('Milhar : {}'.format(n[0]))
+n = str(nume)
+u = nume // 1 % 10
+d = nume // 10 %10
+c = nume // 100 % 100
+m = nume // 1000 % 1000
+print('Unidades : {}'.format(u))
+print('Dezena : {}'.format(d))
+print('Centena : {}'.format(c))
+print('Milhar : {}'.format(m))
