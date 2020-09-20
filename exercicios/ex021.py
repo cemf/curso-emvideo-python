@@ -1,4 +1,7 @@
+
+'''Em ubuntu nao consigo fazer funcionar o pygame'''
 import pygame
+
 import os
 
 pygame.mixer.init()

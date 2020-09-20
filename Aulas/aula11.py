@@ -4,4 +4,4 @@ melhor usar o colorize , provavel q n use mt isso
 sugeriu fazer um dicionario 
 cores = { 'amarelo':'\033[33m' ... } '''
 '''DESAFIO : COLOCAR COR EM TUDO 
-farei'''
+farei?'''
